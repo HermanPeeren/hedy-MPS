@@ -17,25 +17,35 @@
         <child id="5735319842049336166" name="text" index="H3_1$" />
       </concept>
       <concept id="5735319842049290478" name="hedy.level1.structure.PrintCommand" flags="ng" index="H3KfG" />
+      <concept id="5735319842049290479" name="hedy.level1.structure.AskCommand" flags="ng" index="H3KfH" />
+      <concept id="5735319842049290480" name="hedy.level1.structure.EchoCommand" flags="ng" index="H3KfM" />
     </language>
   </registry>
-  <node concept="H3Kf6" id="4YnWK9yAw$$">
-    <node concept="H3KfG" id="4YnWK9yAw$_" role="H3Kf$">
-      <node concept="H3_1F" id="4YnWK9yAw$E" role="H3_1$">
-        <property role="H3_1C" value="d" />
+  <node concept="H3Kf6" id="2rGJXwaznrD">
+    <node concept="H3KfG" id="2rGJXwaznrE" role="H3Kf$">
+      <node concept="H3_1F" id="2rGJXwaznrF" role="H3_1$">
+        <property role="H3_1C" value="test1" />
       </node>
     </node>
-    <node concept="H3KfG" id="4YnWK9yAw_J" role="H3Kf$">
-      <node concept="H3_1F" id="4YnWK9yAw_O" role="H3_1$">
-        <property role="H3_1C" value="oeijnpojpoij" />
+    <node concept="H3KfH" id="7a$8pti7Max" role="H3Kf$">
+      <node concept="H3_1F" id="7a$8pti7Ma$" role="H3_1$">
+        <property role="H3_1C" value="test2" />
       </node>
     </node>
-    <node concept="H3KfG" id="4YnWK9yAw_W" role="H3Kf$" />
-    <node concept="H3KfG" id="4YnWK9yAyzH" role="H3Kf$">
-      <node concept="H3_1F" id="4YnWK9yAyzR" role="H3_1$" />
+    <node concept="H3KfM" id="7a$8pti7MaN" role="H3Kf$">
+      <node concept="H3_1F" id="7a$8pti7MaQ" role="H3_1$">
+        <property role="H3_1C" value="test3" />
+      </node>
     </node>
-    <node concept="H3KfG" id="4YnWK9yAy$3" role="H3Kf$" />
-    <node concept="H3KfF" id="4YnWK9yAy$d" role="H3Kf$" />
+    <node concept="H3KfG" id="7a$8pti7MbV" role="H3Kf$">
+      <node concept="H3_1F" id="7a$8pti7MbY" role="H3_1$" />
+    </node>
+    <node concept="H3KfM" id="7a$8pti7Mcl" role="H3Kf$">
+      <node concept="H3_1F" id="7a$8pti7Mco" role="H3_1$" />
+    </node>
+    <node concept="H3KfH" id="7a$8pti7McN" role="H3Kf$">
+      <node concept="H3_1F" id="7a$8pti7McQ" role="H3_1$" />
+    </node>
   </node>
 </model>
 
