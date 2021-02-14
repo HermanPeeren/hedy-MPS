@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dependenciesRoot>
-  <dependency className="hedy.level9.typesystem.TypesystemDescriptor">
-    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.BaseHelginsDescriptor" />
-  </dependency>
-</dependenciesRoot>
-
