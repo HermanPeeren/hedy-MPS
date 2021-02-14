@@ -7,11 +7,12 @@
   <imports />
   <registry>
     <language id="e95a561e-9854-400e-be65-901f7b189932" name="hedy.level1">
+      <concept id="4608975531542928898" name="hedy.level1.structure.EmptyStatement" flags="ng" index="2BSK3h" />
       <concept id="5735319842049336169" name="hedy.level1.structure.Text" flags="ng" index="H3_1F">
         <property id="5735319842049336170" name="value" index="H3_1C" />
       </concept>
       <concept id="5735319842049290436" name="hedy.level1.structure.Program" flags="ng" index="H3Kf6">
-        <child id="5735319842049290470" name="Commands" index="H3Kf$" />
+        <child id="5735319842049290470" name="statements" index="H3Kf$" />
       </concept>
       <concept id="5735319842049290473" name="hedy.level1.structure.Command" flags="ng" index="H3KfF">
         <child id="5735319842049336166" name="text" index="H3_1$" />
@@ -24,7 +25,12 @@
   <node concept="H3Kf6" id="2rGJXwaznrD">
     <node concept="H3KfG" id="2rGJXwaznrE" role="H3Kf$">
       <node concept="H3_1F" id="2rGJXwaznrF" role="H3_1$">
-        <property role="H3_1C" value="test1" />
+        <property role="H3_1C" value="test1fdf" />
+      </node>
+    </node>
+    <node concept="H3KfG" id="3ZQnHeo53KD" role="H3Kf$">
+      <node concept="H3_1F" id="3ZQnHeo53KG" role="H3_1$">
+        <property role="H3_1C" value="fgfgs" />
       </node>
     </node>
     <node concept="H3KfH" id="7a$8pti7Max" role="H3Kf$">
@@ -34,17 +40,32 @@
     </node>
     <node concept="H3KfM" id="7a$8pti7MaN" role="H3Kf$">
       <node concept="H3_1F" id="7a$8pti7MaQ" role="H3_1$">
-        <property role="H3_1C" value="test3" />
+        <property role="H3_1C" value="test" />
       </node>
+    </node>
+    <node concept="H3KfH" id="3ZQnHeo5nIo" role="H3Kf$">
+      <node concept="H3_1F" id="3ZQnHeo5nIq" role="H3_1$" />
+    </node>
+    <node concept="2BSK3h" id="3ZQnHeo5xhm" role="H3Kf$" />
+    <node concept="H3KfH" id="3ZQnHeo5xf0" role="H3Kf$">
+      <node concept="H3_1F" id="3ZQnHeo5xf2" role="H3_1$" />
+    </node>
+    <node concept="H3KfG" id="3ZQnHeo5xfO" role="H3Kf$">
+      <node concept="H3_1F" id="3ZQnHeo5xfQ" role="H3_1$">
+        <property role="H3_1C" value="fjgsiogjosi" />
+      </node>
+    </node>
+    <node concept="H3KfG" id="3ZQnHeo5nI1" role="H3Kf$">
+      <node concept="H3_1F" id="3ZQnHeo5nI3" role="H3_1$" />
+    </node>
+    <node concept="H3KfH" id="3ZQnHeo5s9d" role="H3Kf$">
+      <node concept="H3_1F" id="3ZQnHeo5s9f" role="H3_1$" />
     </node>
     <node concept="H3KfG" id="7a$8pti7MbV" role="H3Kf$">
       <node concept="H3_1F" id="7a$8pti7MbY" role="H3_1$" />
     </node>
     <node concept="H3KfM" id="7a$8pti7Mcl" role="H3Kf$">
       <node concept="H3_1F" id="7a$8pti7Mco" role="H3_1$" />
-    </node>
-    <node concept="H3KfH" id="7a$8pti7McN" role="H3Kf$">
-      <node concept="H3_1F" id="7a$8pti7McQ" role="H3_1$" />
     </node>
   </node>
 </model>
