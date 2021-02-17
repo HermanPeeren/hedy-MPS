@@ -18,25 +18,22 @@
         <child id="5735319842049336166" name="text" index="H3_1$" />
       </concept>
       <concept id="5735319842049290478" name="hedy.level1.structure.PrintCommand" flags="ng" index="H3KfG" />
+      <concept id="5735319842049290479" name="hedy.level1.structure.AskCommand" flags="ng" index="H3KfH" />
     </language>
   </registry>
-  <node concept="H3Kf6" id="2rGJXwaznrD">
-    <node concept="H3KfG" id="2rGJXwaznrE" role="H3Kf$">
-      <node concept="H3_1F" id="2rGJXwaznrF" role="H3_1$">
-        <property role="H3_1C" value="hallo wereld!" />
+  <node concept="H3Kf6" id="qAqe8bx4GJ">
+    <node concept="H3KfG" id="qAqe8bx4GK" role="H3Kf$">
+      <node concept="H3_1F" id="qAqe8bx4GL" role="H3_1$">
+        <property role="H3_1C" value="fgee" />
       </node>
     </node>
-    <node concept="H3KfG" id="561XhzXizpK" role="H3Kf$">
-      <node concept="H3_1F" id="561XhzXizpM" role="H3_1$">
-        <property role="H3_1C" value="test" />
+    <node concept="H3KfH" id="qAqe8bx4GS" role="H3Kf$">
+      <node concept="H3_1F" id="qAqe8bx4GU" role="H3_1$">
+        <property role="H3_1C" value="egree" />
       </node>
     </node>
-    <node concept="H3KfG" id="4P9js$Kid9g" role="H3Kf$">
-      <node concept="H3_1F" id="4P9js$Kid9i" role="H3_1$" />
-    </node>
-    <node concept="2BSK3h" id="561XhzXisnv" role="H3Kf$" />
-    <node concept="2BSK3h" id="5u2$rRgNz9j" role="H3Kf$" />
-    <node concept="2BSK3h" id="5u2$rRgNyXu" role="H3Kf$" />
+    <node concept="2BSK3h" id="qAqe8bx4H0" role="H3Kf$" />
+    <node concept="2BSK3h" id="qAqe8bx4H6" role="H3Kf$" />
   </node>
 </model>
 
