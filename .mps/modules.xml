@@ -4,30 +4,8 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/hedy.level1/hedy.level1.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/hedy.level1/sandbox/hedy.level1.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level10/hedy.level10.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level10/sandbox/hedy.level10.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level11/hedy.level11.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level11/sandbox/hedy.level11.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level12/hedy.level12.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level12/sandbox/hedy.level12.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level13/hedy.level13.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level13/sandbox/hedy.level13.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/hedy.level2/hedy.level2.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/hedy.level2/sandbox/hedy.level2.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level3/hedy.level3.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level3/sandbox/hedy.level3.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level4/hedy.level4.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level4/sandbox/hedy.level4.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level5/hedy.level5.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level5/sandbox/hedy.level5.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level6/hedy.level6.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level6/sandbox/hedy.level6.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level7/hedy.level7.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level7/sandbox/hedy.level7.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level8/hedy.level8.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level8/sandbox/hedy.level8.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level9/hedy.level9.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level9/sandbox/hedy.level9.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>

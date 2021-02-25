@@ -109,7 +109,7 @@
   <node concept="1TIwiD" id="qAqe8bx63_">
     <property role="EcuMT" value="479185730426659045" />
     <property role="TrG5h" value="AssignmentStatement" />
-    <property role="34LRSv" value="assign" />
+    <property role="34LRSv" value="variable is value" />
     <ref role="1TJDcQ" node="3ZQnHeo5lS3" resolve="Statement" />
     <node concept="1TJgyj" id="3BRBzPtgaAf" role="1TKVEi">
       <property role="IQ2ns" value="4176981165804136847" />
