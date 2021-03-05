@@ -102,9 +102,6 @@
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="PrWs8" id="qAqe8bx63C" role="PzmwI">
-      <ref role="PrY4T" node="qAqe8bx63A" resolve="IAssignable" />
-    </node>
   </node>
   <node concept="1TIwiD" id="qAqe8bx63_">
     <property role="EcuMT" value="479185730426659045" />
@@ -159,7 +156,15 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="values" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="4YnWK9yAqdD" resolve="Text" />
+      <ref role="20lvS9" node="UkUBT4MFdM" resolve="TextWithoutComma" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="UkUBT4MFdM">
+    <property role="TrG5h" value="TextWithoutComma" />
+    <property role="EcuMT" value="1050722441125081970" />
+    <ref role="1TJDcQ" node="4YnWK9yAqdD" resolve="Text" />
+    <node concept="PrWs8" id="UkUBT4MFdO" role="PzmwI">
+      <ref role="PrY4T" node="qAqe8bx63A" resolve="IAssignable" />
     </node>
   </node>
 </model>
