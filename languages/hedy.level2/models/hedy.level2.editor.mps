@@ -8,7 +8,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="fk6y" ref="r:8c213798-db07-49b0-8642-cc5b44fb3e89(hedy.level2.structure)" implicit="true" />
+    <import index="fk6y" ref="r:8c213798-db07-49b0-8642-cc5b44fb3e89(hedy.level2.structure)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />

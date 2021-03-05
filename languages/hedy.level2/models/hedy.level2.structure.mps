@@ -12,6 +12,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -57,12 +58,6 @@
       <ref role="20lvS9" node="4YnWK9yAqdD" resolve="Text" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4YnWK9yAf3K">
-    <property role="EcuMT" value="5735319842049290480" />
-    <property role="TrG5h" value="EchoCommand" />
-    <property role="34LRSv" value="echo" />
-    <ref role="1TJDcQ" node="4YnWK9yAf3D" resolve="Command" />
-  </node>
   <node concept="1TIwiD" id="3ZQnHeo5lS2">
     <property role="EcuMT" value="4608975531542928898" />
     <property role="TrG5h" value="EmptyStatement" />
@@ -91,19 +86,17 @@
     <property role="EcuMT" value="4608975531542928899" />
     <property role="TrG5h" value="Statement" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="A program is a collection of statements" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="4YnWK9yAqdD">
     <property role="TrG5h" value="Text" />
     <property role="EcuMT" value="5735319842049336169" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3OnRiEBQric" resolve="Expression" />
     <node concept="1TJgyi" id="4YnWK9yAqdE" role="1TKVEl">
       <property role="IQ2nx" value="5735319842049336170" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="PrWs8" id="qAqe8bx63C" role="PzmwI">
-      <ref role="PrY4T" node="qAqe8bx63A" resolve="IAssignable" />
     </node>
   </node>
   <node concept="1TIwiD" id="qAqe8bx63_">
@@ -132,11 +125,18 @@
   </node>
   <node concept="1TIwiD" id="qAqe8bx63E">
     <property role="EcuMT" value="479185730426659050" />
-    <property role="TrG5h" value="AskCommand" />
+    <property role="TrG5h" value="AskExpression" />
     <property role="34LRSv" value="ask" />
-    <ref role="1TJDcQ" node="4YnWK9yAf3D" resolve="Command" />
+    <ref role="1TJDcQ" node="3OnRiEBQric" resolve="Expression" />
     <node concept="PrWs8" id="qAqe8bx63F" role="PzmwI">
       <ref role="PrY4T" node="qAqe8bx63A" resolve="IAssignable" />
+    </node>
+    <node concept="1TJgyj" id="3OnRiEBQriP" role="1TKVEi">
+      <property role="IQ2ns" value="4402230336052376757" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="text" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4YnWK9yAqdD" resolve="Text" />
     </node>
   </node>
   <node concept="1TIwiD" id="qAqe8bx63H">
@@ -159,8 +159,21 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="values" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="4YnWK9yAqdD" resolve="Text" />
+      <ref role="20lvS9" node="UkUBT4MFdM" resolve="TextWithoutComma" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="UkUBT4MFdM">
+    <property role="TrG5h" value="TextWithoutComma" />
+    <property role="EcuMT" value="1050722441125081970" />
+    <ref role="1TJDcQ" node="4YnWK9yAqdD" resolve="Text" />
+    <node concept="PrWs8" id="UkUBT4MFdO" role="PzmwI">
+      <ref role="PrY4T" node="qAqe8bx63A" resolve="IAssignable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3OnRiEBQric">
+    <property role="EcuMT" value="4402230336052376716" />
+    <property role="TrG5h" value="Expression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 
