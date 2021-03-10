@@ -19,7 +19,6 @@
       </concept>
       <concept id="5735319842049290478" name="hedy.level1.structure.PrintCommand" flags="ng" index="H3KfG" />
       <concept id="5735319842049290479" name="hedy.level1.structure.AskCommand" flags="ng" index="H3KfH" />
-      <concept id="5735319842049290480" name="hedy.level1.structure.EchoCommand" flags="ng" index="H3KfM" />
     </language>
   </registry>
   <node concept="H3Kf6" id="2rGJXwaznrD">
@@ -33,18 +32,14 @@
         <property role="H3_1C" value="test" />
       </node>
     </node>
-    <node concept="2BSK3h" id="66KLMr3MTHH" role="H3Kf$" />
-    <node concept="H3KfH" id="66KLMr3MTIw" role="H3Kf$">
-      <node concept="H3_1F" id="66KLMr3MTIx" role="H3_1$">
-        <property role="H3_1C" value="kbbk" />
+    <node concept="2BSK3h" id="1sfdyTjbeWJ" role="H3Kf$" />
+    <node concept="H3KfH" id="1sfdyTjbdak" role="H3Kf$">
+      <node concept="H3_1F" id="1sfdyTjbdam" role="H3_1$">
+        <property role="H3_1C" value="what?" />
       </node>
     </node>
-    <node concept="H3KfM" id="66KLMr3Ne2y" role="H3Kf$">
-      <node concept="H3_1F" id="66KLMr3MTIQ" role="H3_1$">
-        <property role="H3_1C" value="dfppoj" />
-      </node>
-    </node>
-    <node concept="2BSK3h" id="66KLMr3MBIj" role="H3Kf$" />
+    <node concept="2BSK3h" id="1sfdyTjbkJH" role="H3Kf$" />
+    <node concept="2BSK3h" id="1sfdyTjbdax" role="H3Kf$" />
   </node>
 </model>
 

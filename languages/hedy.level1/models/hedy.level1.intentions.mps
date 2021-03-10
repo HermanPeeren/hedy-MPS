@@ -109,7 +109,7 @@
       <node concept="3clFbS" id="66KLMr3MTJv" role="2VODD2">
         <node concept="3clFbF" id="66KLMr3MTYZ" role="3cqZAp">
           <node concept="Xl_RD" id="66KLMr3MTYY" role="3clFbG">
-            <property role="Xl_RC" value="Change to Ask" />
+            <property role="Xl_RC" value="Change to ask" />
           </node>
         </node>
       </node>
@@ -185,7 +185,7 @@
       <node concept="3clFbS" id="66KLMr3MW7p" role="2VODD2">
         <node concept="3clFbF" id="66KLMr3MWcq" role="3cqZAp">
           <node concept="Xl_RD" id="66KLMr3MWcp" role="3clFbG">
-            <property role="Xl_RC" value="Change to Print" />
+            <property role="Xl_RC" value="Change to print" />
           </node>
         </node>
       </node>
@@ -261,7 +261,7 @@
       <node concept="3clFbS" id="66KLMr3MY56" role="2VODD2">
         <node concept="3clFbF" id="66KLMr3MYa9" role="3cqZAp">
           <node concept="Xl_RD" id="66KLMr3MYa8" role="3clFbG">
-            <property role="Xl_RC" value="Change to Echo" />
+            <property role="Xl_RC" value="Change to echo" />
           </node>
         </node>
       </node>
@@ -337,7 +337,7 @@
       <node concept="3clFbS" id="66KLMr3N0Io" role="2VODD2">
         <node concept="3clFbF" id="66KLMr3N0Jp" role="3cqZAp">
           <node concept="Xl_RD" id="66KLMr3N0Jo" role="3clFbG">
-            <property role="Xl_RC" value="Change to Print" />
+            <property role="Xl_RC" value="Change to print" />
           </node>
         </node>
       </node>
@@ -416,7 +416,7 @@
       <node concept="3clFbS" id="66KLMr3N4mt" role="2VODD2">
         <node concept="3clFbF" id="66KLMr3N4mu" role="3cqZAp">
           <node concept="Xl_RD" id="66KLMr3N4mv" role="3clFbG">
-            <property role="Xl_RC" value="Change to Echo" />
+            <property role="Xl_RC" value="Change to echo" />
           </node>
         </node>
       </node>
@@ -495,7 +495,7 @@
       <node concept="3clFbS" id="66KLMr3N5d$" role="2VODD2">
         <node concept="3clFbF" id="66KLMr3N5d_" role="3cqZAp">
           <node concept="Xl_RD" id="66KLMr3N5dA" role="3clFbG">
-            <property role="Xl_RC" value="Change to Ask" />
+            <property role="Xl_RC" value="Change to ask" />
           </node>
         </node>
       </node>
