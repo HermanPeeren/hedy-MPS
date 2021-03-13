@@ -11,8 +11,18 @@
         <child id="479185730426659060" name="value" index="d8wwm" />
         <child id="4176981165804136847" name="variable" index="1$HNuM" />
       </concept>
-      <concept id="479185730426659050" name="hedy.level2.structure.AskCommand" flags="ng" index="d8ww8" />
+      <concept id="479185730426659050" name="hedy.level2.structure.AskExpression" flags="ng" index="d8ww8">
+        <child id="1529251236150351263" name="text" index="2aamxU" />
+      </concept>
       <concept id="479185730426659053" name="hedy.level2.structure.Variable" flags="ng" index="d8wwf" />
+      <concept id="5590491717142553504" name="hedy.level2.structure.sub0" flags="ng" index="2lBG$S" />
+      <concept id="5590491717142487601" name="hedy.level2.structure.sub2" flags="ng" index="2lBWyD" />
+      <concept id="5590491717142487603" name="hedy.level2.structure.sub3" flags="ng" index="2lBWyF" />
+      <concept id="5590491717142487598" name="hedy.level2.structure.Subs1" flags="ng" index="2lBWyQ" />
+      <concept id="5590491717142486916" name="hedy.level2.structure.testpgm" flags="ng" index="2lBZks">
+        <child id="5590491717142486917" name="statements" index="2lBZkt" />
+      </concept>
+      <concept id="4608975531542928898" name="hedy.level2.structure.EmptyStatement" flags="ng" index="2BSK3h" />
       <concept id="5735319842049336169" name="hedy.level2.structure.Text" flags="ng" index="H3_1F">
         <property id="5735319842049336170" name="value" index="H3_1C" />
       </concept>
@@ -51,16 +61,65 @@
         </node>
       </node>
     </node>
-    <node concept="d8ww8" id="UkUBT4MTk7" role="H3Kf$">
-      <node concept="H3_1F" id="UkUBT4MTk9" role="H3_1$">
-        <property role="H3_1C" value="with a comma,yes okay!" />
-      </node>
-    </node>
     <node concept="H3KfG" id="UkUBT4MTkt" role="H3Kf$">
       <node concept="H3_1F" id="UkUBT4MTkv" role="H3_1$">
         <property role="H3_1C" value="with a comma,yes okay!" />
       </node>
     </node>
+    <node concept="d8ww7" id="5rR60iKGgGt" role="H3Kf$">
+      <node concept="d8wwf" id="5rR60iKGgGs" role="1$HNuM">
+        <property role="TrG5h" value="test" />
+      </node>
+      <node concept="d8ww8" id="5rR60iKI298" role="d8wwm">
+        <node concept="H3_1F" id="5rR60iKI29a" role="2aamxU" />
+      </node>
+    </node>
+    <node concept="d8ww7" id="5rR60iKI26T" role="H3Kf$">
+      <node concept="d8wwf" id="5rR60iKI26S" role="1$HNuM">
+        <property role="TrG5h" value="test" />
+      </node>
+      <node concept="d8ww8" id="5rR60iKI27d" role="d8wwm">
+        <node concept="H3_1F" id="5rR60iKI27e" role="2aamxU">
+          <property role="H3_1C" value="Hoe heet je?" />
+        </node>
+      </node>
+    </node>
+    <node concept="d8ww7" id="5rR60iKI28B" role="H3Kf$">
+      <node concept="d8wwf" id="5rR60iKI28A" role="1$HNuM">
+        <property role="TrG5h" value="test2" />
+      </node>
+      <node concept="d8ww8" id="5rR60iKI292" role="d8wwm">
+        <node concept="H3_1F" id="5rR60iKI293" role="2aamxU">
+          <property role="H3_1C" value="kkan,met,komma..." />
+        </node>
+      </node>
+    </node>
+    <node concept="d8ww7" id="7WRrOdWcsun" role="H3Kf$">
+      <node concept="d8wwf" id="7WRrOdWcsum" role="1$HNuM">
+        <property role="TrG5h" value="test" />
+      </node>
+      <node concept="1$HRzQ" id="7WRrOdWcsv2" role="d8wwm">
+        <node concept="1an_$c" id="7WRrOdWcsuZ" role="1$HRzN">
+          <property role="H3_1C" value="bla" />
+        </node>
+        <node concept="1an_$c" id="7WRrOdWcsv3" role="1$HRzN">
+          <property role="H3_1C" value="bla" />
+        </node>
+      </node>
+    </node>
+    <node concept="H3KfG" id="7WRrOdWhElZ" role="H3Kf$">
+      <node concept="H3_1F" id="7WRrOdWhEm1" role="H3_1$" />
+    </node>
+    <node concept="2BSK3h" id="2ydtF8kOgjo" role="H3Kf$" />
+  </node>
+  <node concept="H3Kf6" id="1_2M$6gEBmD">
+    <node concept="2BSK3h" id="4QlqDzo3mUX" role="H3Kf$" />
+  </node>
+  <node concept="2lBZks" id="4QlqDzo2Frf">
+    <node concept="2lBWyF" id="5rR60iKFIVS" role="2lBZkt" />
+    <node concept="2lBWyD" id="5rR60iKFQ31" role="2lBZkt" />
+    <node concept="2lBWyQ" id="5rR60iKFIVE" role="2lBZkt" />
+    <node concept="2lBG$S" id="5rR60iKFIVN" role="2lBZkt" />
   </node>
 </model>
 
