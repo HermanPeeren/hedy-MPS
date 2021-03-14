@@ -1,0 +1,134 @@
+Index: languages/hedy.level2/sandbox/models/hedy.level2.sandbox.mps
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<model ref=\"r:70438f18-fd21-4fa2-9968-1d5d8a78ef9e(hedy.level2.sandbox)\">\r\n  <persistence version=\"9\" />\r\n  <languages>\r\n    <use id=\"55cc11e8-40fc-4c9a-9b54-92658f204e27\" name=\"hedy.level2\" version=\"0\" />\r\n  </languages>\r\n  <imports />\r\n  <registry />\r\n</model>\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/languages/hedy.level2/sandbox/models/hedy.level2.sandbox.mps b/languages/hedy.level2/sandbox/models/hedy.level2.sandbox.mps
+--- a/languages/hedy.level2/sandbox/models/hedy.level2.sandbox.mps	(revision e9b1ed0429d66a96c577f2e07b744dd806e54f4c)
++++ b/languages/hedy.level2/sandbox/models/hedy.level2.sandbox.mps	(date 1614513135314)
+@@ -5,6 +5,61 @@
+     <use id="55cc11e8-40fc-4c9a-9b54-92658f204e27" name="hedy.level2" version="0" />
+   </languages>
+   <imports />
+-  <registry />
++  <registry>
++    <language id="55cc11e8-40fc-4c9a-9b54-92658f204e27" name="hedy.level2">
++      <concept id="479185730426659045" name="hedy.level2.structure.AssignmentStatement" flags="ng" index="d8ww7">
++        <child id="479185730426659060" name="value" index="d8wwm" />
++        <child id="4176981165804136847" name="variable" index="1$HNuM" />
++      </concept>
++      <concept id="479185730426659053" name="hedy.level2.structure.Variable" flags="ng" index="d8wwf" />
++      <concept id="4608975531542928898" name="hedy.level2.structure.EmptyStatement" flags="ng" index="2BSK3h" />
++      <concept id="5735319842049336169" name="hedy.level2.structure.Text" flags="ng" index="H3_1F">
++        <property id="5735319842049336170" name="value" index="H3_1C" />
++      </concept>
++      <concept id="5735319842049290436" name="hedy.level2.structure.Program" flags="ng" index="H3Kf6">
++        <child id="5735319842049290470" name="statements" index="H3Kf$" />
++      </concept>
++      <concept id="5735319842049290473" name="hedy.level2.structure.Command" flags="ng" index="H3KfF">
++        <child id="5735319842049336166" name="text" index="H3_1$" />
++      </concept>
++      <concept id="5735319842049290478" name="hedy.level2.structure.PrintCommand" flags="ng" index="H3KfG" />
++      <concept id="4176981165804152523" name="hedy.level2.structure.List" flags="ng" index="1$HRzQ">
++        <child id="4176981165804152526" name="values" index="1$HRzN" />
++      </concept>
++    </language>
++    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
++      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
++        <property id="1169194664001" name="name" index="TrG5h" />
++      </concept>
++    </language>
++  </registry>
++  <node concept="H3Kf6" id="4sCO9tXdPio">
++    <node concept="d8ww7" id="4sCO9tXdPip" role="H3Kf$">
++      <node concept="d8wwf" id="4sCO9tXdPiq" role="1$HNuM">
++        <property role="TrG5h" value="Paul" />
++      </node>
++      <node concept="1$HRzQ" id="4sCO9tXdPiy" role="d8wwm">
++        <node concept="H3_1F" id="3L3Ko1H$Fhg" role="1$HRzN">
++          <property role="H3_1C" value="dit" />
++        </node>
++        <node concept="H3_1F" id="3L3Ko1H$Fhj" role="1$HRzN">
++          <property role="H3_1C" value="dat" />
++        </node>
++        <node concept="H3_1F" id="3L3Ko1H$Fhn" role="1$HRzN">
++          <property role="H3_1C" value="zus" />
++        </node>
++        <node concept="H3_1F" id="3L3Ko1H$Fhs" role="1$HRzN">
++          <property role="H3_1C" value="zo" />
++        </node>
++      </node>
++    </node>
++    <node concept="H3KfG" id="3L3Ko1H$FhV" role="H3Kf$">
++      <node concept="H3_1F" id="3L3Ko1H$FhX" role="H3_1$">
++        <property role="H3_1C" value=" Paul at random" />
++      </node>
++    </node>
++    <node concept="2BSK3h" id="6LwAp1hT_jY" role="H3Kf$" />
++    <node concept="2BSK3h" id="3L3Ko1H$Fi8" role="H3Kf$" />
++  </node>
+ </model>
+ 
+Index: languages/hedy.level2/models/hedy.level2.editor.mps
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<model ref=\"r:5887e1a3-cb31-4972-b990-52c2d5568271(hedy.level2.editor)\">\r\n  <persistence version=\"9\" />\r\n  <languages>\r\n    <use id=\"18bc6592-03a6-4e29-a83a-7ff23bde13ba\" name=\"jetbrains.mps.lang.editor\" version=\"14\" />\r\n    <use id=\"aee9cad2-acd4-4608-aef2-0004f6a1cdbd\" name=\"jetbrains.mps.lang.actions\" version=\"4\" />\r\n    <devkit ref=\"fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)\" />\r\n  </languages>\r\n  <imports>\r\n    <import index=\"fk6y\" ref=\"r:8c213798-db07-49b0-8642-cc5b44fb3e89(hedy.level2.structure)\" implicit=\"true\" />\r\n    <import index=\"tpco\" ref=\"r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)\" implicit=\"true\" />\r\n    <import index=\"tpck\" ref=\"r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)\" implicit=\"true\" />\r\n  </imports>\r\n  <registry>\r\n    <language id=\"18bc6592-03a6-4e29-a83a-7ff23bde13ba\" name=\"jetbrains.mps.lang.editor\">\r\n      <concept id=\"5991739802479784073\" name=\"jetbrains.mps.lang.editor.structure.MenuTypeDefault\" flags=\"ng\" index=\"22hDWj\" />\r\n      <concept id=\"2000375450116423800\" name=\"jetbrains.mps.lang.editor.structure.SubstituteMenu\" flags=\"ng\" index=\"22mcaB\" />\r\n      <concept id=\"1071666914219\" name=\"jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration\" flags=\"ig\" index=\"24kQdi\" />\r\n      <concept id=\"1176897764478\" name=\"jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory\" flags=\"in\" index=\"4$FPG\" />\r\n      <concept id=\"1140524381322\" name=\"jetbrains.mps.lang.editor.structure.CellModel_ListWithRole\" flags=\"ng\" index=\"2czfm3\">\r\n        <child id=\"1176897874615\" name=\"nodeFactory\" index=\"4_6I_\" />\r\n        <child id=\"1140524464360\" name=\"cellLayout\" index=\"2czzBx\" />\r\n      </concept>\r\n      <concept id=\"1106270549637\" name=\"jetbrains.mps.lang.editor.structure.CellLayout_Horizontal\" flags=\"nn\" index=\"2iRfu4\" />\r\n      <concept id=\"1237303669825\" name=\"jetbrains.mps.lang.editor.structure.CellLayout_Indent\" flags=\"nn\" index=\"l2Vlx\" />\r\n      <concept id=\"1237308012275\" name=\"jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem\" flags=\"ln\" index=\"ljvvj\" />\r\n      <concept id=\"1237375020029\" name=\"jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem\" flags=\"ln\" index=\"pj6Ft\" />\r\n      <concept id=\"1080736578640\" name=\"jetbrains.mps.lang.editor.structure.BaseEditorComponent\" flags=\"ig\" index=\"2wURMF\">\r\n        <child id=\"1080736633877\" name=\"cellModel\" index=\"2wV5jI\" />\r\n      </concept>\r\n      <concept id=\"1078939183254\" name=\"jetbrains.mps.lang.editor.structure.CellModel_Component\" flags=\"sg\" stub=\"3162947552742194261\" index=\"PMmxH\">\r\n        <reference id=\"1078939183255\" name=\"editorComponent\" index=\"PMmxG\" />\r\n      </concept>\r\n      <concept id=\"1186402211651\" name=\"jetbrains.mps.lang.editor.structure.StyleSheet\" flags=\"ng\" index=\"V5hpn\">\r\n        <child id=\"1186402402630\" name=\"styles\" index=\"V601i\" />\r\n      </concept>\r\n      <concept id=\"1186403694788\" name=\"jetbrains.mps.lang.editor.structure.ColorStyleClassItem\" flags=\"ln\" index=\"VaVBg\">\r\n        <property id=\"1186403713874\" name=\"color\" index=\"Vb096\" />\r\n        <child id=\"1186403803051\" name=\"query\" index=\"VblUZ\" />\r\n      </concept>\r\n      <concept id=\"1186403751766\" name=\"jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem\" flags=\"ln\" index=\"Vb9p2\">\r\n        <property id=\"1186403771423\" name=\"style\" index=\"Vbekb\" />\r\n      </concept>\r\n      <concept id=\"1186404549998\" name=\"jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem\" flags=\"ln\" index=\"VechU\" />\r\n      <concept id=\"1186414536763\" name=\"jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem\" flags=\"ln\" index=\"VOi$J\">\r\n        <property id=\"1186414551515\" name=\"flag\" index=\"VOm3f\" />\r\n      </concept>\r\n      <concept id=\"1186414860679\" name=\"jetbrains.mps.lang.editor.structure.EditableStyleClassItem\" flags=\"ln\" index=\"VPxyj\" />\r\n      <concept id=\"1630016958697344083\" name=\"jetbrains.mps.lang.editor.structure.IMenu_Concept\" flags=\"ng\" index=\"2ZABuq\">\r\n        <reference id=\"6591946374543067572\" name=\"conceptDeclaration\" index=\"aqKnT\" />\r\n        <child id=\"5991739802479788259\" name=\"type\" index=\"22hAXT\" />\r\n      </concept>\r\n      <concept id=\"3383245079137382180\" name=\"jetbrains.mps.lang.editor.structure.StyleClass\" flags=\"ig\" index=\"14StLt\" />\r\n      <concept id=\"1225456267680\" name=\"jetbrains.mps.lang.editor.structure.RGBColor\" flags=\"ng\" index=\"1iSF2X\">\r\n        <property id=\"1225456424731\" name=\"value\" index=\"1iTho6\" />\r\n      </concept>\r\n      <concept id=\"1381004262292414836\" name=\"jetbrains.mps.lang.editor.structure.ICellStyle\" flags=\"ng\" index=\"1k5N5V\">\r\n        <reference id=\"1381004262292426837\" name=\"parentStyleClass\" index=\"1k5W1q\" />\r\n      </concept>\r\n      <concept id=\"1236262245656\" name=\"jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem\" flags=\"ln\" index=\"3mYdg7\">\r\n        <property id=\"1238091709220\" name=\"labelName\" index=\"1413C4\" />\r\n      </concept>\r\n      <concept id=\"1139848536355\" name=\"jetbrains.mps.lang.editor.structure.CellModel_WithRole\" flags=\"ng\" index=\"1$h60E\">\r\n        <property id=\"1214560368769\" name=\"emptyNoTargetText\" index=\"39s7Ar\" />\r\n        <property id=\"1140114345053\" name=\"allowEmptyText\" index=\"1O74Pk\" />\r\n        <reference id=\"1140103550593\" name=\"relationDeclaration\" index=\"1NtTu8\" />\r\n      </concept>\r\n      <concept id=\"1073389214265\" name=\"jetbrains.mps.lang.editor.structure.EditorCellModel\" flags=\"ng\" index=\"3EYTF0\">\r\n        <property id=\"1130859485024\" name=\"attractsFocus\" index=\"1cu_pB\" />\r\n      </concept>\r\n      <concept id=\"1073389446423\" name=\"jetbrains.mps.lang.editor.structure.CellModel_Collection\" flags=\"sn\" stub=\"3013115976261988961\" index=\"3EZMnI\">\r\n        <child id=\"1106270802874\" name=\"cellLayout\" index=\"2iSdaV\" />\r\n        <child id=\"1073389446424\" name=\"childCellModel\" index=\"3EZMnx\" />\r\n      </concept>\r\n      <concept id=\"1073389577006\" name=\"jetbrains.mps.lang.editor.structure.CellModel_Constant\" flags=\"sn\" stub=\"3610246225209162225\" index=\"3F0ifn\">\r\n        <property id=\"1073389577007\" name=\"text\" index=\"3F0ifm\" />\r\n      </concept>\r\n      <concept id=\"1073389658414\" name=\"jetbrains.mps.lang.editor.structure.CellModel_Property\" flags=\"sg\" stub=\"730538219796134133\" index=\"3F0A7n\" />\r\n      <concept id=\"1219418625346\" name=\"jetbrains.mps.lang.editor.structure.IStyleContainer\" flags=\"ng\" index=\"3F0Thp\">\r\n        <child id=\"1219418656006\" name=\"styleItem\" index=\"3F10Kt\" />\r\n      </concept>\r\n      <concept id=\"1073389882823\" name=\"jetbrains.mps.lang.editor.structure.CellModel_RefNode\" flags=\"sg\" stub=\"730538219795960754\" index=\"3F1sOY\">\r\n        <property id=\"16410578721444372\" name=\"customizeEmptyCell\" index=\"2ru_X1\" />\r\n      </concept>\r\n      <concept id=\"1073390211982\" name=\"jetbrains.mps.lang.editor.structure.CellModel_RefNodeList\" flags=\"sg\" stub=\"2794558372793454595\" index=\"3F2HdR\" />\r\n      <concept id=\"1166049232041\" name=\"jetbrains.mps.lang.editor.structure.AbstractComponent\" flags=\"ng\" index=\"1XWOmA\">\r\n        <reference id=\"1166049300910\" name=\"conceptDeclaration\" index=\"1XX52x\" />\r\n      </concept>\r\n    </language>\r\n    <language id=\"f3061a53-9226-4cc5-a443-f952ceaf5816\" name=\"jetbrains.mps.baseLanguage\">\r\n      <concept id=\"1145552977093\" name=\"jetbrains.mps.baseLanguage.structure.GenericNewExpression\" flags=\"nn\" index=\"2ShNRf\">\r\n        <child id=\"1145553007750\" name=\"creator\" index=\"2ShVmc\" />\r\n      </concept>\r\n      <concept id=\"1137021947720\" name=\"jetbrains.mps.baseLanguage.structure.ConceptFunction\" flags=\"in\" index=\"2VMwT0\">\r\n        <child id=\"1137022507850\" name=\"body\" index=\"2VODD2\" />\r\n      </concept>\r\n      <concept id=\"1068580123155\" name=\"jetbrains.mps.baseLanguage.structure.ExpressionStatement\" flags=\"nn\" index=\"3clFbF\">\r\n        <child id=\"1068580123156\" name=\"expression\" index=\"3clFbG\" />\r\n      </concept>\r\n      <concept id=\"1068580123136\" name=\"jetbrains.mps.baseLanguage.structure.StatementList\" flags=\"sn\" stub=\"5293379017992965193\" index=\"3clFbS\">\r\n        <child id=\"1068581517665\" name=\"statement\" index=\"3cqZAp\" />\r\n      </concept>\r\n    </language>\r\n    <language id=\"7866978e-a0f0-4cc7-81bc-4d213d9375e1\" name=\"jetbrains.mps.lang.smodel\">\r\n      <concept id=\"1180636770613\" name=\"jetbrains.mps.lang.smodel.structure.SNodeCreator\" flags=\"nn\" index=\"3zrR0B\">\r\n        <child id=\"1180636770616\" name=\"createdType\" index=\"3zrR0E\" />\r\n      </concept>\r\n      <concept id=\"1138055754698\" name=\"jetbrains.mps.lang.smodel.structure.SNodeType\" flags=\"in\" index=\"3Tqbb2\">\r\n        <reference id=\"1138405853777\" name=\"concept\" index=\"ehGHo\" />\r\n      </concept>\r\n    </language>\r\n    <language id=\"ceab5195-25ea-4f22-9b92-103b95ca8c0c\" name=\"jetbrains.mps.lang.core\">\r\n      <concept id=\"1169194658468\" name=\"jetbrains.mps.lang.core.structure.INamedConcept\" flags=\"ng\" index=\"TrEIO\">\r\n        <property id=\"1169194664001\" name=\"name\" index=\"TrG5h\" />\r\n      </concept>\r\n    </language>\r\n  </registry>\r\n  <node concept=\"24kQdi\" id=\"3ZQnHeo5uNL\">\r\n    <ref role=\"1XX52x\" to=\"fk6y:4YnWK9yAf3D\" resolve=\"Command\" />\r\n    <node concept=\"3EZMnI\" id=\"3ZQnHeo5uNN\" role=\"2wV5jI\">\r\n      <node concept=\"PMmxH\" id=\"3ZQnHeo5uNO\" role=\"3EZMnx\">\r\n        <ref role=\"PMmxG\" to=\"tpco:2wZex4PafBj\" resolve=\"alias\" />\r\n        <node concept=\"VechU\" id=\"3ZQnHeo5uNP\" role=\"3F10Kt\">\r\n          <property role=\"Vb096\" value=\"fLwANPu/blue\" />\r\n        </node>\r\n      </node>\r\n      <node concept=\"3F1sOY\" id=\"3ZQnHeo5uNQ\" role=\"3EZMnx\">\r\n        <property role=\"2ru_X1\" value=\"true\" />\r\n        <property role=\"1cu_pB\" value=\"gtguBGO/firstEditableCell\" />\r\n        <ref role=\"1NtTu8\" to=\"fk6y:4YnWK9yAqdA\" resolve=\"text\" />\r\n      </node>\r\n      <node concept=\"2iRfu4\" id=\"3ZQnHeo5uNR\" role=\"2iSdaV\" />\r\n    </node>\r\n  </node>\r\n  <node concept=\"24kQdi\" id=\"3ZQnHeo5lSu\">\r\n    <ref role=\"1XX52x\" to=\"fk6y:3ZQnHeo5lS2\" resolve=\"EmptyStatement\" />\r\n    <node concept=\"3F0ifn\" id=\"3ZQnHeo5lSw\" role=\"2wV5jI\">\r\n      <node concept=\"VPxyj\" id=\"3ZQnHeo5lSz\" role=\"3F10Kt\">\r\n        <property role=\"VOm3f\" value=\"true\" />\r\n      </node>\r\n    </node>\r\n  </node>\r\n  <node concept=\"22mcaB\" id=\"3ZQnHeo5nK8\">\r\n    <ref role=\"aqKnT\" to=\"fk6y:3ZQnHeo5lS2\" resolve=\"EmptyStatement\" />\r\n    <node concept=\"22hDWj\" id=\"3ZQnHeo5nK9\" role=\"22hAXT\" />\r\n  </node>\r\n  <node concept=\"24kQdi\" id=\"4YnWK9yAmMU\">\r\n    <ref role=\"1XX52x\" to=\"fk6y:4YnWK9yAf34\" resolve=\"Program\" />\r\n    <node concept=\"3EZMnI\" id=\"4YnWK9yAmMW\" role=\"2wV5jI\">\r\n      <node concept=\"3F2HdR\" id=\"qAqe8bx4Mr\" role=\"3EZMnx\">\r\n        <ref role=\"1NtTu8\" to=\"fk6y:4YnWK9yAf3A\" resolve=\"statements\" />\r\n        <node concept=\"l2Vlx\" id=\"qAqe8bx4Mu\" role=\"2czzBx\" />\r\n        <node concept=\"ljvvj\" id=\"qAqe8bx4ML\" role=\"3F10Kt\">\r\n          <property role=\"VOm3f\" value=\"true\" />\r\n        </node>\r\n        <node concept=\"pj6Ft\" id=\"3BRBzPtg4sW\" role=\"3F10Kt\">\r\n          <property role=\"VOm3f\" value=\"true\" />\r\n        </node>\r\n        <node concept=\"4$FPG\" id=\"3BRBzPtg4sZ\" role=\"4_6I_\">\r\n          <node concept=\"3clFbS\" id=\"3BRBzPtg4t0\" role=\"2VODD2\">\r\n            <node concept=\"3clFbF\" id=\"3BRBzPtg4zn\" role=\"3cqZAp\">\r\n              <node concept=\"2ShNRf\" id=\"3BRBzPtg4w4\" role=\"3clFbG\">\r\n                <node concept=\"3zrR0B\" id=\"3BRBzPtg4w2\" role=\"2ShVmc\">\r\n                  <node concept=\"3Tqbb2\" id=\"3BRBzPtg4w3\" role=\"3zrR0E\">\r\n                    <ref role=\"ehGHo\" to=\"fk6y:3ZQnHeo5lS2\" resolve=\"EmptyStatement\" />\r\n                  </node>\r\n                </node>\r\n              </node>\r\n            </node>\r\n          </node>\r\n        </node>\r\n      </node>\r\n      <node concept=\"l2Vlx\" id=\"4YnWK9yAmMX\" role=\"2iSdaV\" />\r\n      <node concept=\"3F0ifn\" id=\"4YnWK9yAmNf\" role=\"3EZMnx\">\r\n        <node concept=\"3mYdg7\" id=\"4YnWK9yAmNg\" role=\"3F10Kt\">\r\n          <property role=\"1413C4\" value=\"body-brace\" />\r\n        </node>\r\n      </node>\r\n    </node>\r\n  </node>\r\n  <node concept=\"24kQdi\" id=\"4YnWK9yAqdH\">\r\n    <ref role=\"1XX52x\" to=\"fk6y:4YnWK9yAqdD\" resolve=\"Text\" />\r\n    <node concept=\"3EZMnI\" id=\"4YnWK9yAsDk\" role=\"2wV5jI\">\r\n      <node concept=\"2iRfu4\" id=\"4YnWK9yAsDl\" role=\"2iSdaV\" />\r\n      <node concept=\"3F0A7n\" id=\"4YnWK9yAqdJ\" role=\"3EZMnx\">\r\n        <property role=\"1O74Pk\" value=\"true\" />\r\n        <property role=\"39s7Ar\" value=\"true\" />\r\n        <ref role=\"1NtTu8\" to=\"fk6y:4YnWK9yAqdE\" resolve=\"value\" />\r\n      </node>\r\n    </node>\r\n  </node>\r\n  <node concept=\"24kQdi\" id=\"qAqe8bx6Pe\">\r\n    <ref role=\"1XX52x\" to=\"fk6y:qAqe8bx63_\" resolve=\"AssignmentStatement\" />\r\n    <node concept=\"3EZMnI\" id=\"qAqe8bx6Pg\" role=\"2wV5jI\">\r\n      <node concept=\"3F1sOY\" id=\"3BRBzPtgaAt\" role=\"3EZMnx\">\r\n        <ref role=\"1NtTu8\" to=\"fk6y:3BRBzPtgaAf\" resolve=\"variable\" />\r\n      </node>\r\n      <node concept=\"3F0ifn\" id=\"qAqe8bx6P_\" role=\"3EZMnx\">\r\n        <property role=\"3F0ifm\" value=\"is\" />\r\n        <ref role=\"1k5W1q\" node=\"3BRBzPtgcu2\" resolve=\"Keyword\" />\r\n        <node concept=\"Vb9p2\" id=\"3BRBzPtgcuj\" role=\"3F10Kt\">\r\n          <property role=\"Vbekb\" value=\"g1_k_vY/BOLD\" />\r\n        </node>\r\n      </node>\r\n      <node concept=\"3F1sOY\" id=\"qAqe8bx6Pn\" role=\"3EZMnx\">\r\n        <ref role=\"1NtTu8\" to=\"fk6y:qAqe8bx63O\" resolve=\"value\" />\r\n      </node>\r\n      <node concept=\"2iRfu4\" id=\"qAqe8bx6Pj\" role=\"2iSdaV\" />\r\n    </node>\r\n  </node>\r\n  <node concept=\"24kQdi\" id=\"3BRBzPtg6uW\">\r\n    <ref role=\"1XX52x\" to=\"fk6y:qAqe8bx63H\" resolve=\"Variable\" />\r\n    <node concept=\"3EZMnI\" id=\"3BRBzPtg6uY\" role=\"2wV5jI\">\r\n      <node concept=\"3F0A7n\" id=\"3BRBzPtg6v5\" role=\"3EZMnx\">\r\n        <ref role=\"1NtTu8\" to=\"tpck:h0TrG11\" resolve=\"name\" />\r\n      </node>\r\n      <node concept=\"2iRfu4\" id=\"3BRBzPtg6v1\" role=\"2iSdaV\" />\r\n    </node>\r\n  </node>\r\n  <node concept=\"V5hpn\" id=\"3BRBzPtgctZ\">\r\n    <property role=\"TrG5h\" value=\"Hedystyle\" />\r\n    <node concept=\"14StLt\" id=\"3BRBzPtgcu2\" role=\"V601i\">\r\n      <property role=\"TrG5h\" value=\"Keyword\" />\r\n      <node concept=\"VechU\" id=\"3BRBzPtgcu5\" role=\"3F10Kt\">\r\n        <node concept=\"1iSF2X\" id=\"3BRBzPtgcub\" role=\"VblUZ\">\r\n          <property role=\"1iTho6\" value=\"ff69B4\" />\r\n        </node>\r\n      </node>\r\n    </node>\r\n  </node>\r\n</model>\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/languages/hedy.level2/models/hedy.level2.editor.mps b/languages/hedy.level2/models/hedy.level2.editor.mps
+--- a/languages/hedy.level2/models/hedy.level2.editor.mps	(revision e9b1ed0429d66a96c577f2e07b744dd806e54f4c)
++++ b/languages/hedy.level2/models/hedy.level2.editor.mps	(date 1614513132509)
+@@ -1,6 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <model ref="r:5887e1a3-cb31-4972-b990-52c2d5568271(hedy.level2.editor)">
+   <persistence version="9" />
++  <attribute name="doNotGenerate" value="false" />
+   <languages>
+     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
+@@ -18,6 +19,7 @@
+       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
+       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
++        <property id="1140524450557" name="separatorText" index="2czwfO" />
+         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
+         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+       </concept>
+@@ -83,6 +85,7 @@
+         <property id="16410578721444372" name="customizeEmptyCell" index="2ru_X1" />
+       </concept>
+       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
++      <concept id="5624877018226900666" name="jetbrains.mps.lang.editor.structure.TransformationMenu" flags="ng" index="3ICUPy" />
+       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
+         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
+       </concept>
+@@ -226,6 +229,26 @@
+           <property role="1iTho6" value="ff69B4" />
+         </node>
+       </node>
++    </node>
++    <node concept="14StLt" id="3L3Ko1H_Cft" role="V601i">
++      <property role="TrG5h" value="variable" />
++      <node concept="Vb9p2" id="3L3Ko1H_Cfz" role="3F10Kt">
++        <property role="Vbekb" value="g1_kEg4/ITALIC" />
++      </node>
++    </node>
++  </node>
++  <node concept="3ICUPy" id="3L3Ko1H_Cf_">
++    <ref role="aqKnT" to="fk6y:4YnWK9yAqdD" resolve="Text" />
++  </node>
++  <node concept="24kQdi" id="3L3Ko1H_7Tg">
++    <ref role="1XX52x" to="fk6y:3BRBzPtgerb" resolve="List" />
++    <node concept="3EZMnI" id="3L3Ko1H_7Ti" role="2wV5jI">
++      <node concept="3F2HdR" id="3L3Ko1H_7To" role="3EZMnx">
++        <property role="2czwfO" value="," />
++        <ref role="1NtTu8" to="fk6y:3BRBzPtgere" resolve="values" />
++        <node concept="l2Vlx" id="3L3Ko1H_7Tq" role="2czzBx" />
++      </node>
++      <node concept="l2Vlx" id="3L3Ko1H_7Tk" role="2iSdaV" />
+     </node>
+   </node>
+ </model>
