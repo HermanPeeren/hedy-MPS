@@ -55,9 +55,6 @@
       <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
       <concept id="3360401466585705291" name="jetbrains.mps.lang.editor.structure.CellModel_ContextAssistant" flags="ng" index="18a60v" />
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
-      <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
-        <property id="1238091709220" name="labelName" index="1413C4" />
-      </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
         <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
@@ -224,14 +221,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="4YnWK9yAmNf" role="3EZMnx">
-        <node concept="3mYdg7" id="4YnWK9yAmNg" role="3F10Kt">
-          <property role="1413C4" value="body-brace" />
-        </node>
-      </node>
-      <node concept="18a60v" id="66KLMr3M_GC" role="3EZMnx">
-        <node concept="VPM3Z" id="66KLMr3M_GE" role="3F10Kt" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="4YnWK9yAqdH">
@@ -252,6 +241,9 @@
         <node concept="VPxyj" id="66KLMr3MxB1" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+      </node>
+      <node concept="18a60v" id="5zCXqMH2InO" role="3EZMnx">
+        <node concept="VPM3Z" id="5zCXqMH2InQ" role="3F10Kt" />
       </node>
       <node concept="l2Vlx" id="66KLMr3MxAU" role="2iSdaV" />
     </node>
