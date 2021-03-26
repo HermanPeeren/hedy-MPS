@@ -36,8 +36,14 @@
         <child id="1638911550608610281" name="executeFunction" index="IWgqQ" />
         <child id="5692353713941573325" name="textFunction" index="1hCUd6" />
       </concept>
+      <concept id="1164824717996" name="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" flags="ng" index="OXEIz">
+        <child id="1164824815888" name="cellMenuPart" index="OY2wv" />
+      </concept>
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
+      </concept>
+      <concept id="1164914519156" name="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceNode_CustomNodeConcept" flags="ng" index="UkePV">
+        <reference id="1164914727930" name="replacementConcept" index="Ul1FP" />
       </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
@@ -72,6 +78,7 @@
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
         <property id="1130859485024" name="attractsFocus" index="1cu_pB" />
+        <child id="1164826688380" name="menuDescriptor" index="P5bDN" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
@@ -372,12 +379,20 @@
   <node concept="24kQdi" id="3ZQnHeo5lSu">
     <ref role="1XX52x" to="zza7:3ZQnHeo5lS2" resolve="EmptyStatement" />
     <node concept="3EZMnI" id="66KLMr3MxAR" role="2wV5jI">
-      <node concept="3F0ifn" id="66KLMr3MxAY" role="3EZMnx">
-        <node concept="VPxyj" id="66KLMr3MxB1" role="3F10Kt">
+      <node concept="3F0ifn" id="3ki29e8KB9j" role="3EZMnx">
+        <node concept="OXEIz" id="3ki29e8KB9q" role="P5bDN">
+          <node concept="UkePV" id="3ki29e8KB9s" role="OY2wv">
+            <ref role="Ul1FP" to="zza7:3ZQnHeo5lS3" resolve="Statement" />
+          </node>
+        </node>
+        <node concept="VPxyj" id="3ki29e8KI8C" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="l2Vlx" id="2z6LQBQQOeP" role="2iSdaV" />
+      <node concept="18a60v" id="3ki29e8Ki$G" role="3EZMnx">
+        <node concept="VPM3Z" id="3ki29e8Ki$I" role="3F10Kt" />
+      </node>
+      <node concept="l2Vlx" id="66KLMr3MxAU" role="2iSdaV" />
     </node>
   </node>
   <node concept="22mcaB" id="3ZQnHeo5nK8">
