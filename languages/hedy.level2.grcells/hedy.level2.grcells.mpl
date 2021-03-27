@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="hedy.level2" uuid="55cc11e8-40fc-4c9a-9b54-92658f204e27" languageVersion="0" moduleVersion="0">
+<language namespace="hedy.level2.grcells" uuid="0534b4a2-cda5-405e-818b-47d909d48e43" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="hedy.level2.generator" uuid="1a771bc9-613b-4500-b2c0-e7767ed96cec">
+    <generator alias="main" namespace="hedy.level2.grcells.generator" uuid="eb75eb97-483e-4e64-9a04-2bda7eeb287e">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -47,8 +47,8 @@
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-        <module reference="55cc11e8-40fc-4c9a-9b54-92658f204e27(hedy.level2)" version="0" />
-        <module reference="1a771bc9-613b-4500-b2c0-e7767ed96cec(hedy.level2.generator)" version="0" />
+        <module reference="0534b4a2-cda5-405e-818b-47d909d48e43(hedy.level2.grcells)" version="0" />
+        <module reference="eb75eb97-483e-4e64-9a04-2bda7eeb287e(hedy.level2.grcells.generator)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
       </dependencyVersions>
@@ -95,7 +95,7 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-    <module reference="55cc11e8-40fc-4c9a-9b54-92658f204e27(hedy.level2)" version="0" />
+    <module reference="0534b4a2-cda5-405e-818b-47d909d48e43(hedy.level2.grcells)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
     <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
