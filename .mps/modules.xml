@@ -14,10 +14,8 @@
       <modulePath path="$PROJECT_DIR$/languages/hedy.level13/sandbox/hedy.level13.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/hedy.level2.grammarcells/hedy.level2.grammarcells.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/hedy.level2.grammarcells/sandbox/hedy.level2.grammarcells.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level2.grcells/hedy.level2.grcells.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level2.grcells/sandbox/hedy.level2.grcells.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level2.plain/hedy.level2.plain.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/hedy.level2.plain/sandbox/hedy.level2.plain.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/hedy.level2x/hedy.level2x.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/hedy.level2x/sandbox/hedy.level2x.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/hedy.level3/hedy.level3.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/hedy.level3/sandbox/hedy.level3.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/hedy.level4/hedy.level4.mpl" folder="" />
