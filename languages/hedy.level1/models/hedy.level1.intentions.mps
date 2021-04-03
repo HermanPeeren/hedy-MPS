@@ -9,6 +9,7 @@
   </languages>
   <imports>
     <import index="zza7" ref="r:1564bb04-b8a2-4dfa-b7da-07b6754fa517(hedy.level1.structure)" />
+    <import index="fp4q" ref="r:42a235b9-d983-493b-83c1-1619a0704861(hedy.level1.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -59,6 +60,9 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -72,6 +76,7 @@
       <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
       <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
       <concept id="2522969319638091381" name="jetbrains.mps.lang.intentions.structure.BaseIntentionDeclaration" flags="ig" index="2ZfUlf">
+        <property id="2522969319638091386" name="isAvailableInChildNodes" index="2ZfUl0" />
         <reference id="2522969319638198290" name="forConcept" index="2ZfgGC" />
         <child id="2522969319638198291" name="executeFunction" index="2ZfgGD" />
         <child id="2522969319638093995" name="isApplicableFunction" index="2ZfVeh" />
@@ -82,6 +87,7 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -561,6 +567,32 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="7tgJOCwpw$c">
+    <property role="TrG5h" value="InterpretHedy" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="zza7:4YnWK9yAf34" resolve="Program" />
+    <node concept="2S6ZIM" id="7tgJOCwpw$d" role="2ZfVej">
+      <node concept="3clFbS" id="7tgJOCwpw$e" role="2VODD2">
+        <node concept="3clFbF" id="7tgJOCwpy7u" role="3cqZAp">
+          <node concept="Xl_RD" id="7tgJOCwpy7t" role="3clFbG">
+            <property role="Xl_RC" value="Interpret" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="7tgJOCwpw$f" role="2ZfgGD">
+      <node concept="3clFbS" id="7tgJOCwpw$g" role="2VODD2">
+        <node concept="3clFbF" id="7tgJOCwqe0V" role="3cqZAp">
+          <node concept="2OqwBi" id="7tgJOCwqe19" role="3clFbG">
+            <node concept="2Sf5sV" id="7tgJOCwqe0U" role="2Oq$k0" />
+            <node concept="2qgKlT" id="7tgJOCwqe2$" role="2OqNvi">
+              <ref role="37wK5l" to="fp4q:7tgJOCwqcnK" resolve="interpret" />
             </node>
           </node>
         </node>

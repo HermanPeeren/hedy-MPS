@@ -22,36 +22,30 @@
       <concept id="5735319842049290480" name="hedy.level1.structure.EchoCommand" flags="ng" index="H3KfM" />
     </language>
   </registry>
-  <node concept="H3Kf6" id="2rGJXwaznrD">
-    <node concept="H3KfG" id="2rGJXwaznrE" role="H3Kf$">
-      <node concept="H3_1F" id="2rGJXwaznrF" role="H3_1$">
-        <property role="H3_1C" value="hallo wereld!" />
+  <node concept="H3Kf6" id="3vvvUc$O_3U">
+    <node concept="H3KfH" id="7tgJOCwpwyy" role="H3Kf$">
+      <node concept="H3_1F" id="7tgJOCwpwy$" role="H3_1$">
+        <property role="H3_1C" value="why" />
       </node>
     </node>
-    <node concept="H3KfG" id="561XhzXizpK" role="H3Kf$">
-      <node concept="H3_1F" id="561XhzXizpM" role="H3_1$">
-        <property role="H3_1C" value="test" />
+    <node concept="H3KfM" id="7tgJOCwpwyG" role="H3Kf$">
+      <node concept="H3_1F" id="7tgJOCwpwyH" role="H3_1$">
+        <property role="H3_1C" value="because of .." />
       </node>
     </node>
-    <node concept="2BSK3h" id="2z6LQBQRmv9" role="H3Kf$" />
-    <node concept="H3KfH" id="2z6LQBQR91G" role="H3Kf$">
-      <node concept="H3_1F" id="2z6LQBQR91I" role="H3_1$">
-        <property role="H3_1C" value="ofvijo" />
+    <node concept="H3KfG" id="7tgJOCwraA6" role="H3Kf$">
+      <node concept="H3_1F" id="7tgJOCwraA8" role="H3_1$">
+        <property role="H3_1C" value="hello output form" />
       </node>
     </node>
-    <node concept="H3KfG" id="2z6LQBQRmvF" role="H3Kf$">
-      <node concept="H3_1F" id="2z6LQBQR92q" role="H3_1$">
-        <property role="H3_1C" value="what is your favourite colour?" />
+    <node concept="H3KfG" id="7tgJOCwraAq" role="H3Kf$">
+      <node concept="H3_1F" id="7tgJOCwraAs" role="H3_1$">
+        <property role="H3_1C" value="second" />
       </node>
     </node>
-    <node concept="2BSK3h" id="2z6LQBQRmvs" role="H3Kf$" />
-    <node concept="H3KfM" id="2z6LQBQR92r" role="H3Kf$">
-      <node concept="H3_1F" id="2z6LQBQR92s" role="H3_1$">
-        <property role="H3_1C" value="so, your favourite colour is " />
-      </node>
-    </node>
-    <node concept="2BSK3h" id="bPjPhHqsj6" role="H3Kf$" />
-    <node concept="2BSK3h" id="4hCOXJRUCZ3" role="H3Kf$" />
+    <node concept="2BSK3h" id="7tgJOCwrkeW" role="H3Kf$" />
+    <node concept="2BSK3h" id="7tgJOCwrkf7" role="H3Kf$" />
+    <node concept="2BSK3h" id="7tgJOCwpwyC" role="H3Kf$" />
   </node>
 </model>
 
