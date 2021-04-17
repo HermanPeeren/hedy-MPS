@@ -22,30 +22,24 @@
       <concept id="5735319842049290480" name="hedy.level1.structure.EchoCommand" flags="ng" index="H3KfM" />
     </language>
   </registry>
-  <node concept="H3Kf6" id="3vvvUc$O_3U">
-    <node concept="H3KfH" id="7tgJOCwpwyy" role="H3Kf$">
-      <node concept="H3_1F" id="7tgJOCwpwy$" role="H3_1$">
-        <property role="H3_1C" value="why" />
+  <node concept="H3Kf6" id="7T8dqg38qjm">
+    <node concept="H3KfG" id="7T8dqg38qjp" role="H3Kf$">
+      <node concept="H3_1F" id="7T8dqg38qjr" role="H3_1$">
+        <property role="H3_1C" value=" Hello World" />
       </node>
     </node>
-    <node concept="H3KfM" id="7tgJOCwpwyG" role="H3Kf$">
-      <node concept="H3_1F" id="7tgJOCwpwyH" role="H3_1$">
-        <property role="H3_1C" value="because of .." />
+    <node concept="H3KfH" id="7T8dqg38qjz" role="H3Kf$">
+      <node concept="H3_1F" id="7T8dqg38qj$" role="H3_1$">
+        <property role="H3_1C" value="what is your favourite color" />
       </node>
     </node>
-    <node concept="H3KfG" id="7tgJOCwraA6" role="H3Kf$">
-      <node concept="H3_1F" id="7tgJOCwraA8" role="H3_1$">
-        <property role="H3_1C" value="hello output form" />
+    <node concept="H3KfM" id="7T8dqg38qjM" role="H3Kf$">
+      <node concept="H3_1F" id="7T8dqg38qjN" role="H3_1$">
+        <property role="H3_1C" value="your favourite color is: " />
       </node>
     </node>
-    <node concept="H3KfG" id="7tgJOCwraAq" role="H3Kf$">
-      <node concept="H3_1F" id="7tgJOCwraAs" role="H3_1$">
-        <property role="H3_1C" value="second" />
-      </node>
-    </node>
-    <node concept="2BSK3h" id="7tgJOCwrkeW" role="H3Kf$" />
-    <node concept="2BSK3h" id="7tgJOCwrkf7" role="H3Kf$" />
-    <node concept="2BSK3h" id="7tgJOCwpwyC" role="H3Kf$" />
+    <node concept="2BSK3h" id="7T8dqg38qjF" role="H3Kf$" />
+    <node concept="2BSK3h" id="7T8dqg38qjv" role="H3Kf$" />
   </node>
 </model>
 
