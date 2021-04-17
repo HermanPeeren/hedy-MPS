@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:c26c7f71-e4c5-4351-b83b-55250818eabd(hedy.level2.grcells.behavior)">
+<model ref="r:dc71fdcf-dd24-4dd3-82d2-1a4a271d0bb6(hedy.level2.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />

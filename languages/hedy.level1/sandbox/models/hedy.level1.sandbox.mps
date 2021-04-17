@@ -50,8 +50,14 @@
         <property role="H3_1C" value="so, your favourite colour is " />
       </node>
     </node>
-    <node concept="2BSK3h" id="bPjPhHqsj6" role="H3Kf$" />
-    <node concept="2BSK3h" id="4hCOXJRUCZ3" role="H3Kf$" />
+    <node concept="2BSK3h" id="1sfdyTjbkJH" role="H3Kf$" />
+    <node concept="2BSK3h" id="Ot7RrewCal" role="H3Kf$" />
+    <node concept="H3KfG" id="Ot7RrewCa_" role="H3Kf$">
+      <node concept="H3_1F" id="Ot7RrewCaA" role="H3_1$">
+        <property role="H3_1C" value="hello" />
+      </node>
+    </node>
+    <node concept="2BSK3h" id="1sfdyTjbdax" role="H3Kf$" />
   </node>
 </model>
 
