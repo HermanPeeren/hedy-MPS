@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:c79438c5-56fc-43ea-be8f-f07f5cc1ef35(hedy.level2x.templates@generator)">
+<model ref="r:f6e84dcf-a9a8-44d1-bdfd-f67f24f272c5(hedy.level2.generator.templates@generator)">
   <persistence version="9" />
   <languages>
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="6ttb" ref="r:66835afc-9900-4a05-b2b5-adaac252ea3c(hedy.level2x.structure)" />
+    <import index="fk6y" ref="r:8c213798-db07-49b0-8642-cc5b44fb3e89(hedy.level2.structure)" />
   </imports>
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -17,7 +17,7 @@
       </concept>
     </language>
   </registry>
-  <node concept="bUwia" id="bPjPhHqtIB">
+  <node concept="bUwia" id="GwwpIDHxAo">
     <property role="TrG5h" value="main" />
   </node>
 </model>
